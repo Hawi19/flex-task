@@ -1,0 +1,43 @@
+.about{
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+hr{
+    width: 150px;
+    height: 2px;
+    background-color: rgb(27, 183, 245);
+    border: none;
+   
+}
+.P{
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.W{
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.C{
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+@media(min-width:800px){
+    .all{
+        display: flex;
+        justify-content: space-around;
+       
+    }
+    .P{
+        margin: 25px;
+    }
+.W{
+    margin: 40px;
+}
+.C{
+    margin: 40px;
+}
+}
